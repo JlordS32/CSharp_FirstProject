@@ -34,6 +34,9 @@ namespace ConsoleApp1
                 Console.WriteLine("There's no bebe.");
             }
             Console.WriteLine(phrase.IndexOf('z'));
+            Console.WriteLine(Math.Pow(3, 3));
+            Console.WriteLine(Math.Round(123843.12));
+            Console.WriteLine(Math.Abs(99));
             Console.ReadLine();
         }
     }
