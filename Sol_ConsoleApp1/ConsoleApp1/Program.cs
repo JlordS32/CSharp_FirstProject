@@ -38,6 +38,14 @@ namespace ConsoleApp1
             Console.WriteLine(Math.Round(123843.12));
             Console.WriteLine(Math.Abs(99));
             Console.ReadLine();
+
+            Console.Write("Enter your name: ");
+            string name = Console.ReadLine();
+            Console.Write("Enter your last name: ");
+            string lastName = Console.ReadLine();
+
+            Console.WriteLine(string.Format("\nHello {0} {1}", name, lastName));
+            Console.ReadLine();
         }
     }
 }
