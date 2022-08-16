@@ -10,6 +10,16 @@
         Background="AntiqueWhite">
     <Grid>
         <StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Button
+                    Content="Button 1"
+                    Padding="10"
+                    Margin="10"/>
+                <Button
+                    Content="Button 2"
+                    Padding="10"
+                    Margin="10"/>
+            </StackPanel>
             <TextBox
                 FontSize="30"
                 Margin="15"
@@ -19,5 +29,11 @@
                 Background="RosyBrown"
                 Foreground="White"/>
         </StackPanel>
+        <DockPanel>
+            <StackPanel DockPanel.Dock="Bottom" Orientation="Horizontal">
+                <Button Content="Jesus"/>
+                <Button Content="Button 2"/>
+            </StackPanel>
+        </DockPanel>
     </Grid>
 </Window>

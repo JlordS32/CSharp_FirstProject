@@ -27,6 +27,7 @@ namespace primePrime
 
         private void goBtn_Click(object sender, RoutedEventArgs e)
         {
+            bool isItPrime = true;
             if (int.TryParse(txtBox.Text, out int theValue))
             {
                 for (int i = 2; i <= theValue / 2; i++)
@@ -34,13 +35,16 @@ namespace primePrime
                     if (theValue % i == 0)
                     {
                         txtBlkOutput.Text = "It's not a prime number.";
+                        isItPrime = false;
                         break;
                     }
-                    else
-                    {
-                        txtBlkOutput.Text = "It's a prime number.";
-                    }
                 }
+
+                if (isItPrime)
+                {
+                    txtBlkOutput.Text = "It's a prime number";
+                }
+
             }
         }
     }

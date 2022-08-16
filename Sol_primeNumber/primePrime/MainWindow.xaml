@@ -7,28 +7,24 @@
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen"
         ResizeMode="NoResize"
-        Title="MainWindow" 
-        Height="500" Width="800">
-    <Grid Margin="0,0,0,-6">
+        Title="MainWindow" Height="500" Width="800">
+    <Grid>
         <Label
             Content="Enter a number between 1 and 100" 
             Width="300"
             Height="30"
-            Margin="50,27,150,227"
+            Margin="200,124,300,330"
             FontSize="15"
             />
         <TextBox 
             x:Name="txtBox"
-            Width="400"
-            Margin="200,165,200,265"
+            Margin="228,175,228,265"
             />
         <Button 
             x:Name="goBtn"
             Content="Go"
-            Width="80"
-            Height="20"
             Click="goBtn_Click" 
-            Margin="208,125,208,135"
+            Margin="356,268,356,178"
             />
         <TextBlock 
             x:Name="txtBlkOutput"

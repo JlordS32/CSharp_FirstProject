@@ -8,27 +8,31 @@ namespace primeNumber
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
+            bool isPrime = true;
 
             Console.Write("Enter a number: ");
 
             if (int.TryParse(Console.ReadLine(), out int theValue))
             {
-                for (int i = 2; i <= theValue / 2; i++)
+                for (int i = 2; i <= theValue/2; i++)
                 {
                     if (theValue % i == 0)
                     {
-                        Console.WriteLine("It's not a prime number.");
+                        Console.WriteLine("{0} is not prime number", theValue);
+                        isPrime = false;
                         break;
                     }
-                    else
-                    {
-                        Console.WriteLine("It's a prime number.");
-                    }
                 }
-                Console.ReadLine();
+
+                if (isPrime)
+                {
+                    Console.WriteLine("{0} is a prime number", theValue);
+                }
             }
+            Console.ReadLine();
+            Main();
         }
     }
 }
