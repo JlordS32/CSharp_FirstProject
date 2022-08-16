@@ -5,8 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:xamlPractice"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        WindowStartupLocation="CenterScreen"
+        Title="Home" Height="350" Width="500"
+        Background="AntiqueWhite">
     <Grid>
-        
+        <StackPanel>
+            <TextBox
+                FontSize="30"
+                Margin="15"
+                TextWrapping="Wrap"
+                SpellCheck.IsEnabled="True"
+                Language="en-US"
+                Background="RosyBrown"
+                Foreground="White"/>
+        </StackPanel>
     </Grid>
 </Window>
