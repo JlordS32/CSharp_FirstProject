@@ -21,6 +21,7 @@ namespace arrayLists
             courseCodes[4] = "ICT50615";
             courseCodes[5] = "ICT50718";
 
+
             string[] courseNames = new string[6];
             courseNames[0] = "Certificate 2 in IT";
             courseNames[1] = "Certificate 3 in IT";
