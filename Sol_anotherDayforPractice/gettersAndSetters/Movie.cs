@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Eventing.Reader;
 using System.Linq;
 using System.Reflection;
 using System.Text;
@@ -12,6 +13,7 @@ namespace gettersAndSetters
         public string title;
         public string director;
         private string rating;
+        public static int movieCount = 0;
 
 
         public Movie(string aTitle, string aDirector, string aRating)
@@ -19,6 +21,8 @@ namespace gettersAndSetters
             title = aTitle;
             director = aDirector;
             Rating = aRating;
+
+            movieCount++;
         }
 
         public string Rating
@@ -39,6 +43,11 @@ namespace gettersAndSetters
                     rating = "NR";
                 }
             }
+        }
+
+        public int MovieCount()
+        {
+            return movieCount;
         }
 
     }

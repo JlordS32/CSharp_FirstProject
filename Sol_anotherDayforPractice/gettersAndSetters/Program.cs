@@ -15,6 +15,8 @@ namespace gettersAndSetters
 
             Shrek.Rating = "Dog";
             Console.WriteLine(Shrek.Rating);
+            Console.WriteLine(Movie.movieCount);
+            Console.WriteLine(Avengers.MovieCount());
 
             Console.ReadLine();
         }
