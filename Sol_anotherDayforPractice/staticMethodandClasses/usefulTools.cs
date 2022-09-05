@@ -12,6 +12,17 @@ namespace staticMethodandClasses
         {
             Console.WriteLine("Hello " + name + "!");
         }
+
+        public void Saybye(string name)
+        {
+            Console.WriteLine("Hello {0}", name);
+        }
+
+        public string Apple()
+        {
+            Sayhi("somebody");
+            return "dogshit";
+        }
     }
 
 }

@@ -12,6 +12,7 @@ namespace gettersAndSetters
         {
             Movie Avengers = new Movie("The Avangers", "Joss Whedon", "PG-13");
             Movie Shrek = new Movie("Shrek", "Adam Adamson", "PG");
+            Movie HarryPotter = new Movie("Harry Potter", "Some dude", "G");
 
             Shrek.Rating = "Dog";
             Console.WriteLine(Shrek.Rating);

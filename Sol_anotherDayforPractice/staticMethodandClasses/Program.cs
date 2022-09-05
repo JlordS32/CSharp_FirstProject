@@ -11,6 +11,8 @@ namespace staticMethodandClasses
     {
         static void Main(string[] args)
         {
+            usefulTools anotherTool = new usefulTools();
+            anotherTool.Saybye("Jesus");
             usefulTools.Sayhi("Jaylou");
             Console.ReadLine();
         }

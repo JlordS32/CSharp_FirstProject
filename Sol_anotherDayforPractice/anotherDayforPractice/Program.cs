@@ -27,6 +27,9 @@ namespace anotherDayforPractice
             theOne.tree = "Oak Tree";
             theOne.age = 1000;
 
+            Tree someOak = new Tree("Oak", 1000, "Green");
+            Console.WriteLine(someOak.age + someOak.colour);
+
             Console.WriteLine(theOne.tree);
             Console.WriteLine(bookOne.JkRowlling());
             Console.WriteLine(bookTwo.JkRowlling());

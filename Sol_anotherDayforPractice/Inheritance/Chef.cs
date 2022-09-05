@@ -13,7 +13,7 @@ namespace Inheritance
             Console.WriteLine("Chef is making a new salad.");
         }
 
-        public static void makeBurger()
+        public virtual void makeBurger()
         {
             Console.WriteLine("Chef is now making a burger...");
         }
@@ -29,6 +29,11 @@ namespace Inheritance
         public static void makeSpaghetti()
         {
             Console.WriteLine("Italian chef is now making spaghetti.");
+        }
+
+        public override void makeBurger()
+        {
+            Console.WriteLine("Italian chef is making italian burger");
         }
 
         public override void specialDish()
