@@ -10,6 +10,7 @@ namespace classAbstract
     {
         static void Main(string[] args)
         {
+            // Some comments uwu.
         }
     }
 
