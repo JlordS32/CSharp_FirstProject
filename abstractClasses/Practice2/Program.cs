@@ -11,6 +11,7 @@ namespace Practice2
         static void Main(string[] args)
         {
             DerivedClass.Uwu();
+            // comment
             Console.ReadLine();
         }
     }
