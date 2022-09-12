@@ -10,9 +10,11 @@ namespace gettersAndSetters
     {
         static void Main(string[] args)
         {
-            Movie Avengers = new Movie("The Avangers", "Joss Whedon", "PG-13");
+            Movie Avengers = new Movie("The Avangers", null, "PG-13");
             Movie Shrek = new Movie("Shrek", "Adam Adamson", "PG");
             Movie HarryPotter = new Movie("Harry Potter", "Some dude", "G");
+
+            Console.WriteLine(Avengers.director);
 
             Shrek.Rating = "Dog";
             Console.WriteLine(Shrek.Rating);

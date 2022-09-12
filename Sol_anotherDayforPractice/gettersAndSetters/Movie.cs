@@ -16,7 +16,7 @@ namespace gettersAndSetters
         public static int movieCount = 0;
 
 
-        public Movie(string aTitle, string aDirector, string aRating)
+        public Movie(string aTitle = "no title", string aDirector = "no director", string aRating = "NR")
         {
             title = aTitle;
             director = aDirector;
