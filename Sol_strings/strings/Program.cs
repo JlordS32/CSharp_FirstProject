@@ -55,11 +55,6 @@ namespace strings
             }
             
             Console.ReadLine();
-
-            decimal value = 23m;
-
-
-
         }
     }
 }
