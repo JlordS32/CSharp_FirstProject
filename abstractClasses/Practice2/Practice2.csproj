@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{05C1EA57-9D1D-4FD9-AFAD-E6679D45CD15}</ProjectGuid>
+    <ProjectGuid>{D2430613-C82C-4947-B757-2F96961F2826}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>abstractClasses</RootNamespace>
-    <AssemblyName>abstractClasses</AssemblyName>
+    <RootNamespace>Practice2</RootNamespace>
+    <AssemblyName>Practice2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Practice2.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
