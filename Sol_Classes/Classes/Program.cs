@@ -11,6 +11,13 @@ namespace Classes
     {
         static void Main()
         {
+            Address address = new Address("13/2", "Libya Place", "Marsfield", "NSW", "2122");
+
+            address.GetAddress();
+
+            Console.ReadLine();
+
+            #region PracticeOne
             /*
             Person personOne = new Person(18, "Belva");
 
@@ -28,7 +35,9 @@ namespace Classes
             Person p = new Person(100, "old");
             Console.WriteLine(p.DescribeYourself());
             */
-
+            #endregion
+            #region Practice Two
+            /*
             Person person1 = new Person();
 
             try
@@ -44,6 +53,8 @@ namespace Classes
             person1.Name = "Jaylou";
             Console.WriteLine(person1.DescribeYourself());
             Console.ReadLine();
+            */
+            #endregion
         }
     }
 }

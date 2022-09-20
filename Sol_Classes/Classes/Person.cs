@@ -14,15 +14,24 @@ namespace Classes
         private int _age;
         private string _name;
 
-        public Person()
+        public Address Address
         {
-            
+            get; set;
         }
 
-        public Person(int age, string name)
+        public Person()
         {
-            Age = age;
+            Age = 0;
+            Name = "Someone";
+            Address = new Address("", "", "", "", "");
+        }
+
+        public Person(string name, int age, string number, string street, string suburb, string state,
+        string postcode)
+        {
             Name = name;
+            Age = age;
+            Address = new Address(number, street, suburb, state, postcode);
         }
 
         public int Age

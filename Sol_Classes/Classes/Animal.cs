@@ -10,7 +10,7 @@ namespace Classes
     {
         public string species { get; set; }
         public string colour { get; set; }
-        public string _animalName;
+        
 
         public Animal(string Aspecies = "No species", string Acolour = "No colour")
         {
