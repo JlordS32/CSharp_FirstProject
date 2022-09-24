@@ -61,6 +61,7 @@ namespace Serialization
                 new Animal("Peach", 40, 20)
             };
 
+             // not working 
             using (Stream fs = new FileStream(@"D:\C# Projects\First Project\Sol_Serialization\Serialization\bowser.xml"))
             {
                 XmlSerializer serializer2 = new XmlSerializer(typeof(List<Animal>));
