@@ -45,8 +45,8 @@ namespace Serialization
         public Animal(SerializationInfo info, StreamingContext context)
         {
             Name = (string)info.GetValue("Name", typeof(string));
-            Weight = (double)info.GetValue("Name", typeof(double));
-            Height = (double)info.GetValue("Name", typeof(double));
+            Weight = (double)info.GetValue("Weight", typeof(double));
+            Height = (double)info.GetValue("Height", typeof(double));
         }
     }
 }
