@@ -10,6 +10,7 @@ namespace @switch
     {
         static void Main(string[] args)
         {
+            // comments
         }
     }
 }
