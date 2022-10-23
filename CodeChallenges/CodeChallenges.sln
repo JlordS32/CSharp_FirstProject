@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChallengeNum2", "ChallengeN
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "58.LengthofLastWord", "58.LengthofLastWord\58.LengthofLastWord.csproj", "{3163A825-BE4C-420C-81C0-956649299263}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "645.Mismatch", "645.Mismatch\645.Mismatch.csproj", "{43CCE63E-89EF-4D7C-B41D-37DA5B0D35EC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{3163A825-BE4C-420C-81C0-956649299263}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3163A825-BE4C-420C-81C0-956649299263}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3163A825-BE4C-420C-81C0-956649299263}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43CCE63E-89EF-4D7C-B41D-37DA5B0D35EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43CCE63E-89EF-4D7C-B41D-37DA5B0D35EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43CCE63E-89EF-4D7C-B41D-37DA5B0D35EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43CCE63E-89EF-4D7C-B41D-37DA5B0D35EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
